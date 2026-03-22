@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #121212);
+  color: white;
+  text-align: center;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+#result {
+  margin-top: 20px;
+  padding: 10px;
+  background: #222;
+  border-radius: 10px;
+  min-height: 60px;
+}
+
+.copy {
+  background: #2196F3;
+}
+
+.ad {
+  margin: 20px 0;
+  padding: 15px;
+  background: #333;
+  border-radius: 10px;
+}
+
+button {
+  transition: 0.2s;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+#result {
+  word-wrap: break-word;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+input:focus, select:focus {
+  outline: 2px solid #4CAF50;
+}
+
+button {
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.03);
+}
